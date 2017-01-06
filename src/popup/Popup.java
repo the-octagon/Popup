@@ -76,7 +76,7 @@ public class Popup {
         });
 
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
-        alert.setTitle("TextEditor");
+        alert.setTitle(program);
         alert.setHeaderText("Contact");
 
         FlowPane fp = new FlowPane();
